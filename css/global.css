@@ -1,0 +1,47 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+.tooltip {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 1.2rem;
+}
+.container-brand,
+.container-countries {
+  display: flex;
+}
+.container-brand img,
+.container-countries img {
+  width: 80%;
+}
+.container-brand h2,
+.container-countries h2 {
+  margin-top: 5%;
+}
+table,
+tr,
+td {
+  border: 1px solid #000;
+}
+.menu {
+  border: 1px solid #000;
+  margin: 0;
+  transition: 0.8s;
+  color: #fff;
+  background-color: #000;
+}
+.menu:hover {
+  background-color: #c1c1c1;
+}
+tfoot {
+  background-color: yellow;
+  transition: 0.8s;
+}
+tfoot td:hover {
+  color: red;
+}
